@@ -6,3 +6,79 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.bg-clr {
+    background-color: rgb(247, 247, 247);
+}
+/* nav-box */
+.Frame-1 {
+    display: flex;
+    margin: 10px 0px;
+    gap: 186;
+    width: 1160px;
+    height: 62px;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+/* site */
+.image {
+    display: flex;
+    margin: 0px 186px;
+    left: 1px;
+    right: 140px;
+}
+.school {
+    font-size: 32px;
+}
+/* navbar */
+.navbar {
+    justify-content: space-between;
+    padding: 20px 0px;
+    gap: 10;
+    width: 1440px;
+    height: 102px;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 32px;
+}
+.nav-link {
+    text-decoration: none;
+}
+
+/* button */
+.btn-primary {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    background-color: rgb(254, 163, 1);
+    border-radius: 12px;
+    gap: 10;
+}
+
+/* color */
+
+.text-Orange {
+    color: rgb(254, 163, 1);
+}
+
+.text-sky-blue {
+    color: rgb(1, 172, 253);
+}
+
+.text-blue {
+    color: rgb(5, 212, 223);
+}
+.text-purple {
+    color: rgb(93, 88, 239);
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
