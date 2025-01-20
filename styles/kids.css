@@ -17,6 +17,10 @@
     gap: 186;
     width: 1160px;
     height: 62px;
+    margin-bottom: 18px;
+}
+.frame-2 {
+    padding: 16px 150px;
 }
 
 /* shared styles */
@@ -26,12 +30,18 @@
 /* site */
 .image {
     display: flex;
+
     margin: 0px 186px;
     left: 1px;
     right: 140px;
+    width: 62px;
+    height: 62px;
 }
 .school {
-    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 17px 0px 15px 11px;
+    gap: 186;
 }
 /* navbar */
 .navbar {
@@ -40,11 +50,13 @@
     gap: 10;
     width: 1440px;
     height: 102px;
+    align-items: center;
 }
 
 .nav-item {
     list-style: none;
     margin-right: 32px;
+    font-weight: 700;
 }
 .nav-link {
     text-decoration: none;
@@ -54,10 +66,10 @@
 .btn-primary {
     font-size: 20px;
     color: rgb(255, 255, 255);
-    margin: 0px 10px;
     background-color: rgb(254, 163, 1);
     border-radius: 12px;
-    gap: 10;
+    padding: 16px 60px;
+    border: none;
 }
 
 /* color */
@@ -81,4 +93,56 @@
 .banner {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* banner */
+.banner {
+    display: flex;
+
+    margin-top: 122px;
+    margin-bottom: 122px;
+    justify-content: center;
+}
+
+.banner-content {
+    max-width: 640px;
+    margin: 0px 50px;
+    gap: 24;
+}
+
+.banner-title {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 24px 0px;
+    gap: 24;
+}
+
+.banner-decription {
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+    margin: 24px 0px;
+    gap: 24;
+    margin-bottom: 24px;
+}
+
+.btn-banner {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-radius: 12px;
+    margin: 24px 0px;
+    padding: 16px 60px;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+/*  responsive media query*/
+@media screen and (max-width: 576px) {
+    .Frame-1,
+    .display-flex,
+    .image,
+    .banner {
+        flex-direction: column;
+    }
 }
