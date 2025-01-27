@@ -317,7 +317,7 @@ button {
     text-align: center;
     margin-right: 140px;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 .Our-story {
     width: 560px;
@@ -336,6 +336,7 @@ button {
 }
 
 .btn-story {
+    flex: 1;
     border-radius: 48px;
     text-align: left;
     border: none;
@@ -343,6 +344,15 @@ button {
     color: white;
     font-size: 15px;
     font-weight: 500;
+    top: -20px;
+    left: -40px;
+}
+
+.btn-top {
+    top: -30px;
+}
+.btn-left {
+    left: -130px;
 }
 
 .story-context {
@@ -366,12 +376,21 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.team {
+    width: 290.69px;
+    height: 301.61px;
+}
+
 .img-description {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(0, 0, 0);
     text-align: left;
-    margin: 28px 38px;
+    margin: 10px 38px;
+    /* align-items: center; */
+    width: 190.68px;
+    height: 56.93px;
 }
 
 .btn-img {
